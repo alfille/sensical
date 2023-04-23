@@ -7,3 +7,7 @@ This program solves a personal need. If you have files copied from one computer 
 old work, it becomes hard to know what you have. Multiple copies of the same thing, sometimes with additions or changes.
 
 Sensical will build a database of all the devices or directories you feed it, and show you the duplicates. It will even help you 
+
+# Project Status
+* Proposal 2023/4/23 creation and initial README
+
