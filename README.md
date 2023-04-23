@@ -11,8 +11,8 @@ Sensical will build a database of all the devices or directories you feed it, an
 # Project Status
 * Proposal 2023/4/23 creation and initial README
 * Plan
-** Python for programming language (lots of mature modules)
-** sqlite3 for the database
-** python hashlib for making hashs of file contents (blake2s looks like a good choice)
-** not sure of presentation gui -- tkinter might be easiest and most transportable
+ * Python for programming language (lots of mature modules)
+ * sqlite3 for the database
+ * python hashlib for making hashs of file contents (blake2s looks like a good choice)
+ * not sure of presentation gui -- tkinter might be easiest and most transportable
 
