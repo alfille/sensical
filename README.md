@@ -9,6 +9,7 @@ old work, it becomes hard to know what you have. Multiple copies of the same thi
 Sensical will build a database of all the devices or directories you feed it, and show you the duplicates. It will even help you 
 
 # Design
+
   ## Database
   sqlite3
   * well integrated into python
