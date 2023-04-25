@@ -24,12 +24,13 @@ Sensical will build a database of all the devices or directories you feed it, an
     * comment
     
   * Files
+    * identifier
     * file name
     * path
     * metadata (dates, size, permissions) *hash*
     * contents *hash*
     * source (e.g. location)
-
+     
   ## Hashing
   * Use python hashlib
   * Don't need cryptographically secure -- uniqueness is the important element
