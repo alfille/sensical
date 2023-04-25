@@ -18,10 +18,21 @@ Sensical will build a database of all the devices or directories you feed it, an
 
   ## Tables
   * Sources
+    * type (CD, DVD, hard disk)
+    * unique name
+    * access method
+    * comment
+    
   * Files
+    * file name
+    * path
+    * metadata (dates, size, permissions) *hash*
+    * contents *hash*
+    * source (e.g. location)
 
   ## Hashing
-  
+  * Use python hashlib
+  * Don't need cryptographically secure -- uniqueness is the important element
 
 # Project Status
 * Proposal 2023/4/23 creation and initial README
