@@ -18,19 +18,21 @@ Sensical will build a database of all the devices or directories you feed it, an
 
   ## Tables
   * Primary table
-    * LocationID
-    * Directory
-    * Filename
-    * Content hash
-    * dates
-    * size 
+    * {Index} Hash if file Contents
+    * elements
+    * text csv of FileID
   * Location
-    * LocationID 
+    * {Index} LocationID 
     * type (CD, DVD, hard disk)
-    * unique name
+    * device name (unique)
     * access method
-    * comment    
-
+    * comment
+  * File
+    * {Index} FileID
+    * LocationId
+    * Path
+    * Filename
+    * Size    
      
   ## Hashing
   * Use python hashlib
